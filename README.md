@@ -184,5 +184,5 @@ Receives a natural language question and returns an answer grounded in CDC artic
 **Arthur Trottmann Ramos**
 Computer Science Student — ICMC/USP (7th semester)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-your--profile-blue)](https://linkedin.com/in/your-profile)
-[![GitHub](https://img.shields.io/badge/GitHub-your--username-black)](https://github.com/your-username)
+[![LinkedIn](https://img.shields.io/badge/arthur-trottmann-ramos)](https://linkedin.com/in/arthur-trottmann-ramos)
+[![GitHub](https://img.shields.io/badge/Arthur-Ramos)](https://github.com/ArthurTRamos)
