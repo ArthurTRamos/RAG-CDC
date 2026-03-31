@@ -55,8 +55,8 @@ The key insight is that the LLM never relies on its own memory to answer — it 
 | Generation | Gemini 3.0 Flash Preview |
 | HTML parsing | BeautifulSoup4 + Regex |
 | Dependency management | Poetry |
-| Secondary Tools | Pytest + Ruff + Taskipy + Typos
-| Frontend | React + Vite *(coming soon)* |
+| Secondary Tools | Pytest + Ruff + Taskipy + Typos |
+| Frontend | React + Vite |
 
 ---
 
@@ -72,7 +72,10 @@ RAG-CDC/
 │   ├── extract_chunks.py      # HTML parser → chunks per article
 │   ├── initial_ingestion.py   # Orchestrates the full indexing pipeline
 │   ├── config.py              # Environment variables
-│   └── pyproject.toml         # Dependencies (Poetry)
+│   ├── pyproject.toml         # Dependencies (Poetry)
+├── frontend/
+|   ├── src/                   # React Components
+|   ├── Configuration_Files
 └── README.md
 ```
 
@@ -85,6 +88,7 @@ RAG-CDC/
 - Python 3.12+
 - [Poetry](https://python-poetry.org/docs/#installation)
 - [Docker](https://docs.docker.com/get-docker/)
+- [npm](https://www.npmjs.com/)
 - A free API key from [Google AI Studio](https://aistudio.google.com)
 
 ### 1. Clone the repository
@@ -136,6 +140,18 @@ poetry run uvicorn main:app --reload
 
 The API will be available at `http://localhost:8000`.
 Interactive docs (Swagger UI) at `http://localhost:8000/docs`.
+
+### 7. Install the frontend dependencies
+
+```bash
+npm install
+```
+
+### 8. Run the frontend
+
+```bash
+npm run dev
+```
 
 ---
 
