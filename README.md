@@ -185,16 +185,6 @@ Receives a natural language question and returns an answer grounded in CDC artic
 
 ---
 
-## Roadmap
-
-- [ ] Frontend interface with React + Vite
-- [ ] Hybrid retrieval (BM25 + semantic search)
-- [ ] Quality evaluation with RAGAS
-- [ ] Docker Compose setup for one-command deployment
-- [ ] Support for additional Brazilian consumer laws
-
----
-
 ## Author
 
 **Arthur Trottmann Ramos**
